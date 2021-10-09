@@ -19,8 +19,9 @@
       "declaration": true,
       "declarationMap": true,
       "lib": ["esnext", "dom"],
-      "types": ["node","jest"],
+      "types": ["node"],
     },
-    "exclude": ["node_modules", "dist", "test", "webpack", "script", "src/**/*.spec.*"]
+    "exclude": ["node_modules", "dist",  "webpack", "script", "src/**/*.spec.*"],
+    "include": ["src"]
 }
   
