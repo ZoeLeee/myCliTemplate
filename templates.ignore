@@ -1,5 +1,5 @@
 templates.ignore
 package_temp.json
 .babelrc.temp
-jsRule.temp
-entry.temp
+config/jsRule.temp
+config/entry.temp
