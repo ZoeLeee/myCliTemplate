@@ -1,0 +1,26 @@
+{
+    "compileOnSave": true,
+  
+    "compilerOptions": {
+      "downlevelIteration": true,
+      "rootDirs": ["src"],
+      "outDir": "dist",
+      "baseUrl": ".",
+      "moduleResolution": "node",
+      "target": "es5",
+      "module": "commonjs",
+      "jsx": "react",
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "noUnusedLocals": false,
+      "declaration": true,
+      "declarationMap": true,
+      "lib": ["esnext", "dom"],
+      "types": ["node","jest"],
+    },
+    "exclude": ["node_modules", "dist", "test", "webpack", "script", "src/**/*.spec.*"]
+}
+  

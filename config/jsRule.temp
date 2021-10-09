@@ -1,0 +1,8 @@
+module.exports = {
+  test: /\.tsx?$/,
+  exclude: /node_modules/,
+  includes: path.resolve(__dirname, "../src"),
+  use: {
+    loader: "babel-loader",
+  },
+};
