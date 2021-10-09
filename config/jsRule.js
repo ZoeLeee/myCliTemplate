@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  test: /\.tsx?$/,
+  test: /\.jsx?$/,
   exclude: /node_modules/,
   include: path.resolve(__dirname, "../src"),
   use: {
